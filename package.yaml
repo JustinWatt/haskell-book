@@ -1,0 +1,20 @@
+name:                haskell-book
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/justinwatt/haskell-book#readme
+license:             BSD3
+author:              Justin Watt
+maintainer:          justinwatt@gmail.com
+copyright:           Copyright (c) 2016
+category:            Game
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  haskell-book:
+    source-dirs:      src
+    main:             Main.hs
