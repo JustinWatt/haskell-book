@@ -14,6 +14,8 @@ extra-source-files:
 dependencies:
   - base >= 4.7 && < 5
   - split
+  - time
+  - containers
 
 executables:
   haskell-book:

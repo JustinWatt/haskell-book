@@ -13,9 +13,3 @@ composed = rev . cap
 
 fmapped :: [Char] -> [Char]
 fmapped = rev <$> cap
-
-tupled :: [Char] -> ([Char], [Char])
-tupled xs = do
-   shout <- cap
-   reved <- rev
-   (shout xs, reved xs)
